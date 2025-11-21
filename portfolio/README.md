@@ -1,19 +1,19 @@
 # Mattie Weathersby Portfolio
 
-Welcome to my portfolio repository. This project showcases my work as I transition into software engineering and UX/UI design. With experience in brand strategy, user research, and digital design, I focus on creating intuitive and visually engaging digital experiences that blend creativity with technical thinking.
+Welcome to my portfolio. This space shares my journey as I grow into software engineering and UX/UI design. I have a passion for creating clean, visually appealing user interfaces and bringing together design, technical thinking, and business strategy to build meaningful digital experiences.
 
 ## About Me
-I am a creative and detail-oriented professional skilled at turning customer insights into solutions that enhance usability and drive results. I combine empathy, research, and design principles to deliver meaningful user experiences across digital products.
+I’m a creative problem solver who enjoys turning ideas into visuals that feel good to use. My background in brand strategy and digital design taught me how to understand people, what they need, and how to communicate through design. Now, I’m applying those same skills to building better user experiences and learning the technical side of how products come to life.
 
 ## Experience
 **Brand Strategist | Self-Employed (May 2021 – Present)**  
-- Built brand strategies for clients across industries, defining voice, positioning, and audience targeting  
-- Applied color theory and UX/UI design principles across websites, logos, and marketing materials  
-- Conducted user persona research to improve engagement and tailor products and services  
-- Launched marketing campaigns that increased client engagement by up to 35 percent on social platforms  
+- Helped clients shape their brand voice, story, and overall look  
+- Applied color and layout principles to create consistent digital visuals  
+- Conducted simple user and audience research to better understand who we were designing for  
+- Created marketing content that helped clients connect with their audience more effectively  
 
 ## Purpose of This Repo
-This repository will contain the code and structure for my personal portfolio website. It highlights my projects, technical skills, and professional background as I continue my journey in software engineering and UX/UI design.
+This repository will hold the code for my personal portfolio website. It will feature my projects and show how I blend design, technology, and business thinking to create thoughtful user experiences.
 
 ## Contact
 - Email: mweathersby252@gmail.com  
