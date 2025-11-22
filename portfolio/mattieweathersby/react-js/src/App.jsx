@@ -3,14 +3,19 @@ import reactLogo from './assets/react.svg'
 import Logo from './assets/Submark Orange.png'
 import './App.css'
 import Navbar from './Navbar.jsx'
+import Hero from './hero.jsx'
 
 function App() {
 
   return (
-    <header>
-      <div><Navbar /></div>
-      <div><Hero /></div>
-    </header>
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+      </main>
+    </>
   )
 }
 

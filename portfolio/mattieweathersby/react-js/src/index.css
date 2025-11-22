@@ -52,6 +52,157 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Hero section styles */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0E0E0E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Horizontal lines */
+.horizontal-line {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  height: 2px;
+  background-color: #CFCAA5;
+}
+
+.top-line {
+  top: 2rem;
+}
+
+.bottom-line {
+  bottom: 2rem;
+}
+
+/* Triangular shapes */
+.triangle-left {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 30px solid #CFCAA5;
+}
+
+.triangle-right {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid #CFCAA5;
+}
+
+/* Main content container */
+.hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Year capsule */
+.year-capsule {
+  background-color: #CFCAA5;
+  color: #F03E25;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  margin-bottom: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+/* Vertical text */
+.vertical-text {
+  position: absolute;
+  left: -8rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  color: #CFCAA5;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+  font-family: system-ui, sans-serif;
+}
+
+/* Main title */
+.main-title {
+  margin-bottom: 2rem;
+}
+
+.main-title h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #F03E25;
+  margin: 0;
+  line-height: 0.8;
+  letter-spacing: 0.1em;
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+}
+
+/* Byline */
+.byline {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.by-text {
+  color: #CFCAA5;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: system-ui, sans-serif;
+}
+
+.name-text {
+  color: #CFCAA5;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-title h1 {
+    font-size: 4rem;
+  }
+  
+  .vertical-text {
+    left: -6rem;
+    font-size: 1rem;
+  }
+  
+  .triangle-left,
+  .triangle-right {
+    display: none;
+  }
+  
+  .horizontal-line {
+    left: 1rem;
+    right: 1rem;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   a:hover {
     color: #747bff;

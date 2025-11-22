@@ -7,8 +7,8 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #ffffff;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  background: #0E0E0E;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.3);
 }
 
 .navbar {
@@ -29,13 +29,25 @@ header {
 .navbar-menu {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin: 0;
   padding: 0;
 }
 
 .navbar-menu a {
   text-decoration: none;
-  color: #111827;
+  color: #F03E25;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-family: system-ui, sans-serif;
+}
+
+.navbar-menu a:hover {
+  color: #CFCAA5;
+  background-color: #CFCAA5;
+  color: #0E0E0E;
 }
 

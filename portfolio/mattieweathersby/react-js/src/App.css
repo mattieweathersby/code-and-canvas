@@ -3,6 +3,11 @@
   min-height: 100vh;
 }
 
+/* Add top padding to main content to account for fixed header */
+main {
+  padding-top: 80px; /* Height of fixed navbar + some spacing */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
