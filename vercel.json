@@ -1,0 +1,17 @@
+{
+  "builds": [
+    {
+      "src": "portfolio/mattieweathersby/react-js/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "portfolio/mattieweathersby/react-js/dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/portfolio/mattieweathersby/react-js/dist/$1"
+    }
+  ]
+}
