@@ -8,10 +8,9 @@ function App() {
 
   return (
     <header>
-      <title>Mattie Weathersby Portfolio</title>
       <div><Navbar /></div>
+      <div><Hero /></div>
     </header>
-  
   )
 }
 
