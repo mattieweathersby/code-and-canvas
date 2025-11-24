@@ -88,8 +88,11 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   z-index: 2;
+  width: 100%;
+  max-width: 1200px;
 }
 
 /* Year capsule */
@@ -107,9 +110,10 @@ button:focus-visible {
 /* Vertical text */
 .vertical-text {
   position: absolute;
-  left: -8rem;
+  left: -10rem;
   top: 50%;
   transform: translateY(-50%) rotate(-90deg);
+  transform-origin: center;
   color: #CFCAA5;
   font-size: 1.2rem;
   font-weight: 500;
@@ -118,9 +122,39 @@ button:focus-visible {
   font-family: system-ui, sans-serif;
 }
 
+/* Scroll indicator */
+.scroll-indicator {
+  position: absolute;
+  right: -10rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: center;
+  color: #CFCAA5;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+  font-family: system-ui, sans-serif;
+  opacity: 0.8;
+  animation: subtlePulse 3s ease-in-out infinite;
+}
+
+/* Subtle pulse animation for scroll indicator */
+@keyframes subtlePulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 /* Main title */
 .main-title {
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-title h1 {
@@ -130,8 +164,12 @@ button:focus-visible {
   margin: 0;
   line-height: 0.8;
   letter-spacing: 0.1em;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+}
+
+.portfolio {
+  letter-spacing: 0.05em;
 }
 
 /* Byline */
@@ -166,6 +204,11 @@ button:focus-visible {
   .vertical-text {
     left: -6rem;
     font-size: 1rem;
+  }
+  
+  .scroll-indicator {
+    right: -6rem;
+    font-size: 0.9rem;
   }
   
   .triangle-left,

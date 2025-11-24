@@ -13,10 +13,13 @@ const Hero = () => {
                 {/* Vertical text */}
                 <div className="vertical-text">GRAPHIC DESIGN</div>
                 
+                {/* Scroll indicator */}
+                <div className="scroll-indicator">SCROLL DOWN</div>
+                
                 {/* Main title */}
                 <div className="main-title">
                     <h1>PORT</h1>
-                    <h1>FOLIO</h1>
+                    <h1 className="folio">FOLIO</h1>
                 </div>
                 
                 {/* Byline */}
