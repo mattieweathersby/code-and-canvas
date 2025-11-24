@@ -120,6 +120,7 @@ button:focus-visible {
   letter-spacing: 0.2em;
   white-space: nowrap;
   font-family: system-ui, sans-serif;
+  z-index: 10;
 }
 
 /* Scroll indicator */
@@ -137,6 +138,7 @@ button:focus-visible {
   font-family: system-ui, sans-serif;
   opacity: 0.8;
   animation: subtlePulse 3s ease-in-out infinite;
+  z-index: 10;
 }
 
 /* Subtle pulse animation for scroll indicator */
@@ -195,30 +197,102 @@ button:focus-visible {
   letter-spacing: 0.1em;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .main-title h1 {
-    font-size: 4rem;
-  }
-  
+/* Tablet adjustments */
+@media (max-width: 1024px) {
   .vertical-text {
-    left: -6rem;
-    font-size: 1rem;
+    left: -8rem;
+    font-size: 1.1rem;
   }
   
   .scroll-indicator {
-    right: -6rem;
+    right: -8rem;
+    font-size: 1rem;
+  }
+  
+  .main-title h1 {
+    font-size: 12rem;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding: 0 1rem;
+  }
+  
+  .main-title h1 {
+    font-size: 6rem;
+    letter-spacing: 0.05em;
+  }
+  
+  .vertical-text {
+    left: -4rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .scroll-indicator {
+    right: -4rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .year-capsule {
+    font-size: 0.9rem;
+    padding: 0.4rem 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .byline {
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: center;
+  }
+  
+  .by-text {
     font-size: 0.9rem;
   }
   
-  .triangle-left,
-  .triangle-right {
-    display: none;
+  .name-text {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
   }
   
   .horizontal-line {
     left: 1rem;
     right: 1rem;
+  }
+}
+
+/* Small mobile adjustments */
+@media (max-width: 480px) {
+  .main-title h1 {
+    font-size: 4rem;
+  }
+  
+  .vertical-text {
+    left: -2.5rem;
+    font-size: 0.8rem;
+    transform: translateY(-50%) rotate(-90deg) scale(0.9);
+  }
+  
+  .scroll-indicator {
+    right: -2.5rem;
+    font-size: 0.7rem;
+    transform: translateY(-50%) rotate(90deg) scale(0.9);
+  }
+  
+  .hero-content {
+    max-width: 90%;
+  }
+  
+  .year-capsule {
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+  }
+  
+  .name-text {
+    font-size: 0.9rem;
   }
 }
 
