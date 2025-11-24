@@ -81,30 +81,6 @@ button:focus-visible {
   bottom: 2rem;
 }
 
-/* Triangular shapes */
-.triangle-left {
-  position: absolute;
-  left: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-right: 30px solid #CFCAA5;
-}
-
-.triangle-right {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 30px solid #CFCAA5;
-}
 
 /* Main content container */
 .hero-content {
@@ -148,13 +124,13 @@ button:focus-visible {
 }
 
 .main-title h1 {
-  font-size: 8rem;
+  font-size: 15rem;
   font-weight: bold;
   color: #F03E25;
   margin: 0;
   line-height: 0.8;
   letter-spacing: 0.1em;
-  font-family: system-ui, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
   text-transform: uppercase;
 }
 

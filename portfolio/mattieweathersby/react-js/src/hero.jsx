@@ -3,11 +3,7 @@ import React from 'react'
 const Hero = () => {
     return  (
         <section className="hero">
-            {/* Top horizontal line */}
-            <div className="horizontal-line top-line"></div>
-            
-            {/* Left triangle */}
-            <div className="triangle-left"></div>
+        
             
             {/* Main content */}
             <div className="hero-content">
@@ -29,12 +25,7 @@ const Hero = () => {
                     <span className="name-text">MATTIE WEATHERSBY</span>
                 </div>
             </div>
-            
-            {/* Right triangle */}
-            <div className="triangle-right"></div>
-            
-            {/* Bottom horizontal line */}
-            <div className="horizontal-line bottom-line"></div>
+    
         </section>
     )
 }
