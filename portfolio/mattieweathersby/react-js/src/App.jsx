@@ -4,6 +4,7 @@ import Logo from './assets/Submark Orange.png'
 import './App.css'
 import Navbar from './Navbar.jsx'
 import Hero from './hero.jsx'
+import About from './about.jsx'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <About />
       </main>
     </>
   )

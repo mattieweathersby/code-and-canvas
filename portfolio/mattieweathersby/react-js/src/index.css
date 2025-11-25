@@ -141,6 +141,33 @@ button:focus-visible {
   z-index: 10;
 }
 
+.about{
+  background-color: #0E0E0E;
+  padding: 3rem;
+  margin-top: -50px
+}
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F03E25;
+  margin-bottom: 1rem;
+}
+
+.about-description {
+  font-size: 1rem;
+  color: #CFCAA5;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #F03E25;
+}
+
+.contact-content {
+  color: #CFCAA5;
+  margin-top: 0.5rem;
+}
+
 /* Subtle pulse animation for scroll indicator */
 @keyframes subtlePulse {
   0%, 100% {
