@@ -144,7 +144,30 @@ button:focus-visible {
 .about{
   background-color: #0E0E0E;
   padding: 3rem;
-  margin-top: -50px
+  margin-top: -50px;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.about-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content .contact-title,
+.about-content .contact-content {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.aboutme-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
 }
 .about-title {
   font-size: 2rem;
@@ -161,11 +184,25 @@ button:focus-visible {
 .contact-title {
   font-weight: bold;
   color: #F03E25;
+  text-align: left;
+  margin-bottom: 0.25rem;
 }
 
 .contact-content {
   color: #CFCAA5;
   margin-top: 0.5rem;
+}
+
+.aboutme-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #F03E25;
+  margin-bottom: 0.25rem;
+}
+
+.aboutme-description {
+  font-size: 1rem;
+  color: #CFCAA5;
 }
 
 /* Subtle pulse animation for scroll indicator */
@@ -288,6 +325,9 @@ button:focus-visible {
   .horizontal-line {
     left: 1rem;
     right: 1rem;
+  }
+  .about-image {
+    width: 100%;
   }
 }
 
