@@ -4,3 +4,11 @@ document.querySelectorAll('.navbar-items li').forEach(li => {
         this.classList.add('active');
     });
 });
+
+// Hamburger menu toggle
+const hamburger = document.querySelector('.hamburger');
+const nav = document.querySelector('.navbar-items');
+
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('open');
+});
